@@ -1,2 +1,2 @@
 # study
-this a study project foe yuye
+this a study project for yuye
