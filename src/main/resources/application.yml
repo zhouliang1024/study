@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: yuye
+  datasource:
+    name: ruoyi
+    url: jdbc:mysql://localhost:3306/ruoyi?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+server:
+  port: 8080
+# Mybatis-Plus 配置
+mybatis-plus:
+  type-aliases-package: com.yuye.improve.DO
+  global-config:
+    id-type: 1
+    db-column-underline: false
+    refresh-mapper: true
+
+
